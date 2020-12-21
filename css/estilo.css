@@ -1,0 +1,55 @@
+body{
+    background-image: url('../imagem/background.jpg');
+    background-size: cover;
+}
+input{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: .5rem 1rem;
+    display: grid;
+    grid: 1fr 1fr;
+    margin: 5px 15px 5px 0px;
+    width: 100%;
+    height: 40px;
+
+}
+input[type=submit]{
+    background-color: rgba(255, 230, 6, 0.849);
+    color: #3C3C3C;
+    border: 1px solid rgba(255, 230, 6, 0.849);
+    border-radius: 7px;
+    padding: .5rem 1rem;
+    margin-left: 70%;
+    width: 30%;
+    font-size: 1.25 em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    margin-left: 15px;
+}
+p{
+    margin-left: 50px;
+}
+form{
+    margin-top: 40px;
+}
+h2{
+    margin-top: 90px;
+    font-style: oblique;
+}
+.card{
+    background-color: transparent;
+    border: transparent;
+    margin-top: 65px;
+}
+label{
+    margin-top: 10px;
+}
+input, label{
+    content: '';
+}
